@@ -1,0 +1,42 @@
+/*Selector de id*/
+#sub{
+    color: blue;
+    font-size: 20px;
+}
+/*Selector de clase*/
+.paragraph{
+    color:rgb(184, 54, 156);
+    font-size: 20px;
+}
+/*Selector de etiqueta o selector de elemento*/
+h1{
+    color:red;
+    font-size: 15px;
+}
+/*Selector descendente*/
+.secondary-container .MainText{
+    color: yellowgreen;
+    font-size: 20px;
+}
+/*Selector de atributo*/
+input[type="text"]{
+    border: 4px solid yellowgreen;
+    font-size: 20px;
+}
+/*Selector de atributo*/
+input[type="number"]{
+    border: 4px solid blueviolet;
+    font-size: 20px;
+}
+/*Selector de hijos directos*/
+ul > li{
+    border-bottom: 5px dotted rgb(44, 99, 143);
+}
+/*Selector de hermanos directos*/
+.main-sub-text + h3{
+    color: rgb(189, 159, 76);
+}
+/*Selector de no hermanos directos (virgulilla)*/
+.main-sub-text + h3{
+    color: rgb(12, 117, 100);
+}
