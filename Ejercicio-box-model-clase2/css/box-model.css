@@ -8,4 +8,15 @@
     padding: 40px 20px 40px 20px;
     background-color: rgb(109, 121, 121);
     margin-bottom: 20px;
+    text-align: center;
+}
+.img-container{
+    text-align: center;
+}
+
+ul .item{
+color: rgb(65, 65, 64);
+padding: 20px 15px;
+background-color: rgb(228, 233, 236);
+text-decoration: none;
 }
