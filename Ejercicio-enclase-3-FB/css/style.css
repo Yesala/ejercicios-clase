@@ -16,24 +16,21 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 40px;
-    margin: 10px 3px;
 }
 
 .item-empty{
     min-width: 300px;
+    padding: 20px;
 }
 
 .txt-title1{
-    font-size: 20px;
+    font-size: 25px;
 }
 
-#nav-principal {
-    padding-top: 30px;
-    font-size: 15px;
-}
-
-#nav-principal a {
+.nav-right a {
     color: #9e9a9a;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
 }
