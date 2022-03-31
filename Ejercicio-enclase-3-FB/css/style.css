@@ -1,7 +1,11 @@
+body{
+    margin: 0px;
+}
+
 .main-container {
     background-color: #000000;
     background-size: cover;
-    padding: 40px 0;
+    padding: 40px 20px;
     flex-wrap: wrap;
 }
 
@@ -20,7 +24,7 @@
 
 .item-empty{
     min-width: 300px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .txt-title1{
