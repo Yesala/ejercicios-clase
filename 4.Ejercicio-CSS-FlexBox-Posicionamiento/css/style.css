@@ -30,14 +30,11 @@ header {
     color: #0b9f81;
 }
 
-.box-container{
-    margin: 10%;
-}
-
 .main-container {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    margin: 10%;
 }
 
 .item {
