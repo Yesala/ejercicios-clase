@@ -1,26 +1,27 @@
-//Como traer elementos del DOM en JS
-
-console.log('logic');
-
+// Cómo traer elmentos del DOM en javascript
 var element = document.getElementById('title');
 console.log('elemento', element);
 
-var paragrahpList = document.getElementsByTagName('p');
-console.log('getElementByTagName',paragrahpList);
+var paragraphList = document.getElementsByTagName('p');
+console.log('getElementsByTagName', paragraphList);
 
-var paragrahpListByClass = document.getElementsByClassName('paragrahp');
-console.log('getElementByClassName',paragrahpListByClass);
+var paragraphListByClass = document.getElementsByClassName('paragraph');
+console.log('getElementsByClassName', paragraphListByClass);
 
-//como agregar css a un elemento
+//cómo agregar css a un elemento
 element.classList.add('title');
 
 let btn = document.getElementById('btn');
 btn.addEventListener('click', changeActive);
 
-function changeActive(){
+
+function changeActive() {
     let paragraphListText = document.getElementsByClassName('g-text');
-    for (let i= 0; i < paragraphListText.length; i++) {
-        //se ejecuta lo que esta adetnro de este bloque siempre y cuando index sea menor al tamaño de la lista
-        console.log('hola');
+    for (let i = 0; i < paragraphListText.length; i++) {
+        if (paragraphListText[i].classList.contains('active')) {
+            paragraphListText[i].classList.remove('active');
+        } else {
+            paragraphListText[i].classList.add('active');
+        }
     }
 }
