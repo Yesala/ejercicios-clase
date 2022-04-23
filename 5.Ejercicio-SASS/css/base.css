@@ -1,0 +1,54 @@
+article p, article h2 {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+article h2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  background: purple;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  line-height: 100px;
+  color: #ffffff;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  -webkit-box-flex: 200px;
+      -ms-flex: 200px;
+          flex: 200px;
+  background: #00ffff;
+}
+
+article p {
+  color: #000000;
+}
+
+article h2 {
+  color: #000000;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+/*# sourceMappingURL=base.css.map */
