@@ -1,0 +1,42 @@
+body {
+  font-family: nimbus-sans,sans-serif;
+  font-size: 15px;
+  color: #073256 !important;
+  line-height: 1.45;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+a.nav-link.active {
+  color: #073256 !important;
+}
+
+.vr {
+  background-color: #073256 !important;
+  width: 1px;
+  opacity: .80;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.txt-small {
+  color: #afc3d3;
+}
+
+.btn {
+  background-color: #afc3d3;
+  padding: 5.6px 28px;
+  margin-right: 15px;
+  margin-top: 3px;
+}
+
+.btn-blue {
+  background-color: #073256;
+  padding: 5.6px 28px;
+}
+/*# sourceMappingURL=base.css.map */
