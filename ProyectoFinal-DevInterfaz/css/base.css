@@ -39,4 +39,22 @@ h2 {
   background-color: #073256;
   padding: 5.6px 28px;
 }
+
+.btn-white {
+  background-color: #fff;
+  padding: 5.6px 28px;
+}
+
+footer ul {
+  padding-left: 0px;
+}
+
+.lista {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #073256;
+}
 /*# sourceMappingURL=base.css.map */
