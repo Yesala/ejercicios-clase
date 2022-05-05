@@ -70,4 +70,20 @@ a {
 .card-body {
   padding: 70px 20px 70px;
 }
+
+.form-control {
+  border-radius: 25px !important;
+  background-color: #edeeef !important;
+  border-color: #edeeef !important;
+  color: #aaa;
+  padding: 10px;
+  padding-left: 30px;
+  margin-bottom: 18px;
+}
+
+.btn-blue-contact {
+  background-color: #3a567d;
+  padding: 5.6px 28px;
+  width: 100%;
+}
 /*# sourceMappingURL=base.css.map */
