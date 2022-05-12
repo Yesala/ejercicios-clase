@@ -3,6 +3,6 @@ btn.addEventListener('click', save);
 
 function save() {
     if (validateForm()) {
-        alert('Message Send!');
+        alert('Message Send. Thanks!');
     }
 }

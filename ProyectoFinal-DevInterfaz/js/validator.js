@@ -6,6 +6,7 @@ function validateForm() {
   for (let i = 0; i < inputList.length; i++) {
     if (inputList[i].type != 'radio' && inputList[i].value == '') {
       inputList[i].classList.add('is-invalid');
+      alert( "Please provide the information request" );
       valid = false;  
     } else if (inputList[i].type != 'radio'){
       inputList[i].classList.remove('is-invalid');
@@ -14,6 +15,7 @@ function validateForm() {
   }
   if (textArea.value == '') {
     textArea.classList.add('is-invalid');
+    alert( "Please provide a message" );
     valid = false;  
   } else {
     textArea.classList.remove('is-invalid');
