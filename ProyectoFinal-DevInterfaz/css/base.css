@@ -62,15 +62,6 @@ a {
   background-color: #3a567d !important;
 }
 
-.card {
-  border-radius: 2em;
-  text-align: center;
-}
-
-.card-body {
-  padding: 70px 20px 70px;
-}
-
 .form-control {
   border-radius: 25px !important;
   background-color: #edeeef !important;
@@ -100,5 +91,67 @@ a {
 .subtitle-services {
   color: #3a567d;
   font-size: 1.8em;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: #afc3d3;
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: left;
+  padding-left: 1.6em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: #073256;
+  font-weight: 800;
+  letter-spacing: 0.10em;
+  margin-bottom: 0.5em;
+}
+
+.fadeIn-bottom {
+  top: 80%;
 }
 /*# sourceMappingURL=base.css.map */
